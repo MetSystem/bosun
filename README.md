@@ -34,3 +34,6 @@ Go Version:
   
 Miniprofiler:
  * Bosun includes [miniprofiler](https://github.com/MiniProfiler/go) in the web UI which can help with debugging. The key combination `ALT-P` will show miniprofiler. This allows you to see timings, as well as the raw queries sent to TSDBs.
+ 
+- elasticSearch
+go build -tags="esv5"
